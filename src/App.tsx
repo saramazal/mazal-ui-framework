@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <MyButton title="ClickMe" color="" ></MyButton><br />
-       <MyButton title="Hello!" color="" big ></MyButton><br />
+       <MyButton title="ClickMe!" color="" pink={true} ></MyButton><br />
+       <MyButton title="Hello!" color="" ></MyButton><br />
       
        <MyInput
          placeholder="Name"
